@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://node-do-zero-j57f.onrender.com/videos
 Content-Type: application/json
 
 {
@@ -8,9 +8,9 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:3333/videos
+GET https://node-do-zero-j57f.onrender.com/videos
 ###
-PUT http://localhost:3333/videos/id
+PUT https://node-do-zero-j57f.onrender.com/videos/id
 Content-Type: application/json
 
 {
@@ -19,4 +19,4 @@ Content-Type: application/json
         "duration": "555"
 }
 ###
-DELETE http://localhost:3333/videos/3f7e87a0-998d-4e65-9126-ac8fc151cf24
+DELETE https://node-do-zero-j57f.onrender.com/videos/3f7e87a0-998d-4e65-9126-ac8fc151cf24
